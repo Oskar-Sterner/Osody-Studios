@@ -1,0 +1,20 @@
+{
+  "name": "bowerconfig",
+  "description": "Configuration-file for bower",
+  "main": "",
+  "authors": [
+    "Oskar Sterner <oskar.lr.sterner@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Oskar-Sterner/Osody-Studios",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AniJS": "anijs#^0.9.3"
+  }
+}

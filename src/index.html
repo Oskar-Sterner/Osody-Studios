@@ -1,0 +1,284 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osody Studios</title>
+    <link rel="shortcut icon" type="image/png" href="assets/fav.png"/>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/be79ef6413.js" crossorigin="anonymous"></script>
+    <!-- AniCollection.js library -->
+    <script defer src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+    <script defer src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
+    <script defer src="https://anijs.github.io/lib/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+    <!-- AniCollection.css library -->
+    <link rel="stylesheet" href="https://osody.se/aniJS/anicollection.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel='stylesheet' href='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/css/stylesheet.css'>
+    <!-- CSS ans TS linking -->
+    <link rel="stylesheet" href="/src/scss/main.scss">
+    <script defer type="module" src="/src/ts/main.ts"></script>
+    <!-- OG -->
+    <meta property="og:type" content="site">
+    <meta property="og:title" content="Osody Studios">
+    <meta property="og:description" content="Osody studios is a design agency that specializes in web design and other graphical elements like logos and animations!">
+    <meta property="og:url" content="https://osody.se/">
+    <meta property="og:image" content="https://osody.se/assets/logo.png">
+    <meta itemprop="name" content="Osody Studios">
+    <meta itemprop="description" content="Osody studios is a design agency that specializes in web design and other graphical elements like logos and animations!">
+</head>
+<body>
+     <!-- Hero & Nav -->
+     <section class="item1">
+        <article id="hero">
+            <div class="input-wrapper">
+                <span class="placeholder"></span>
+            </div>
+            <ul id="desktop-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><img src="assets/logo.png"></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="mobile-nav" style="position: relative;">
+                <i class="fa-solid fa-square-poll-horizontal" id="mobile-links-btn"></i>
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+            <ul id="mobile-container-links" style="display: none;">
+                <li class="about"><p>About</p></li>
+                <li class="projects"><p>Projects</p></li>
+                <li class="clients"><p>Clients</p></li>
+                <li class="contact"><p>Contact</p></li>
+            </ul>
+            <div class="area" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <section class="item2">
+        <article id="about">
+            <h1>ABOUT US</h1>
+            <hr>
+            <div id="about-container">
+                <div class="about-text" data-anijs="if: scroll, on: window, do: fadeInDown animated, before: $scrollReveal">
+                    <p>Osody studios is a design agency that specializes in web design and other graphical elements like logos and animations!</p>
+                    <p>Originally started in mid-pandemic 2020 as just a side project to earn a little extra cash, our agency was
+                        slowly growing with expertise and people to provide our clients with top-of-the-line services.</p>
+                </div>
+              </div>
+        </article>
+    </section>
+
+    <section class="item3">
+        <article id="projects">
+            <div class="custom-shape-divider-top-1665662034">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <h1>PROJECTS</h1>
+            <hr>
+
+            <div class="container" data-anijs="if: scroll, on: window, do: zoomInDown animated, before: $scrollReveal">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+              <div class="cards">
+                <label class="card" for="item-1" id="rekton">
+                    <img src="assets/rekton-bg.jpg" alt="Rekton" draggable="false">
+                    <a id="item-1-button">ABOUT</a>
+                </label>
+                <label class="card" for="item-2" id="dg">
+                    <img src="assets/dg-bg.jpg" alt="DroppedGaming" draggable="false">
+                    <a id="item-2-button">ABOUT</a>
+                </label>
+                <label class="card" for="item-3" id="focus">
+                  <img src="assets/focus-bg.jpg" alt="Focus" draggable="false">
+                  <a id="item-3-button">ABOUT</a>
+                </label>
+              </div>
+            </div>
+
+            <div id="wrapper-rekton">
+                <span>R</span>
+                <span>E</span>
+                <span>K</span>
+                <span>T</span>
+                <span>O</span>
+                <span>N</span>
+            </div>
+
+            <div id="wrapper-dg">
+                <span>D</span>
+                <span>R</span>
+                <span>O</span>
+                <span>P</span>
+                <span>P</span>
+                <span>E</span>
+                <span>D</span>
+                <span>G</span>
+                <span>A</span>
+                <span>M</span>
+                <span>I</span>
+                <span>N</span>
+                <span>G</span>
+            </div>
+
+            <div id="wrapper-focus">
+                <span>F</span>
+                <span>O</span>
+                <span>C</span>
+                <span>U</span>
+                <span>S</span>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1665662272">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </article>
+    </section>
+
+    <section class="item4">
+        <article id="clients">
+            <h1>CLIENTS</h1>
+            <hr>
+            <div class="slider" data-anijs="if: scroll, on: window, do: fadeIn animated, before: $scrollReveal">
+                <input type="radio" name="testimonial" id="t-1">
+                <input type="radio" name="testimonial" id="t-2">
+                <input type="radio" name="testimonial" id="t-3" checked>
+                <input type="radio" name="testimonial" id="t-4">
+                <input type="radio" name="testimonial" id="t-5">
+                <div class="testimonials">
+                    <label class="item" for="t-1">
+                        <img src="assets/dynasty.jpg" alt="picture">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"Incredible Guy (maybe Goat?) Fast replies with professional opinions about your plan/design. Friendly in his attitute and blessed by incredible working speed..."</p>
+                        <h2>- Dynastydestroye</h2>
+                    </label>
+                    <label class="item" for="t-2">
+                        <img src="assets/josh.jpg" alt="picture">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"Outstanding work as always"<br><br><br><br></p>
+                        <h2>- Joshclient1</h2>
+                    </label>
+                    <label class="item" for="t-3">
+                        <img src="assets/cityskugel.jpg" alt="picture">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"At the beginning I had an idea about an avatar and banner. He was able to implement my idea perfectly. The communication was also very very good and the answers came quickly..."</p>
+                        <h2>- Cityskugel</h2>
+                    </label>
+                    <label class="item" for="t-4">
+                        <img src="assets/peter.jpg" alt="picture">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"thanks, satisfied with the work you done!"<br><br><br><br></p>
+                        <h2>- Peterjackson644</h2>
+                    </label>
+                    <label class="item" for="t-5">
+                        <img src="assets/cakeplayshd.jpg" alt="picture">
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"the seller was really fast with his delivery. He also replied realy fast and made me a awesome banner and avatar! If i need a new pack i would again contact him to get a new pack..."</p>
+                        <h2>- Cakeplayshd</h2>
+                    </label>
+                </div>
+                <div class="dots">
+                    <label for="t-1"></label>
+                    <label for="t-2"></label>
+                    <label for="t-3"></label>
+                    <label for="t-4"></label>
+                    <label for="t-5"></label>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="item5">
+        <article id="contact">
+            <div class="custom-shape-divider-top-1667753337">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            
+            <div class="contact-panel" data-anijs="if: scroll, on: window, do: zoomInUp animated, before: $scrollReveal">
+                <h1>CONTACT</h1>
+                
+                <form id="contact">
+                    <label for="name">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="confirmationText">Message:</label>
+                    <textarea id="confirmationText" rows="”6″" cols="”20″" name="confirmationText"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1667753491">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </article>
+    </section>
+
+    <section class="item6">
+        <article id="footer">
+            <footer>
+                <img src="assets/osody.png" alt="Branding">
+                <p>All rights reserved OSODY STUDIOS</p>
+            </footer>
+        </article>
+    </section>
+</body>
+</html>
